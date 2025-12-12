@@ -1,0 +1,40 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.auth-box {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.switch span {
+  color: blue;
+  cursor: pointer;
+}

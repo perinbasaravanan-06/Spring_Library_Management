@@ -1,0 +1,60 @@
+.home-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.add-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-box input {
+  padding: 10px;
+  flex: 1;
+}
+
+.add-box button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.book-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.category {
+  color: gray;
+}
+
+.available {
+  color: green;
+}
+
+.borrowed {
+  color: red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
